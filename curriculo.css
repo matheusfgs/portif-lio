@@ -1,0 +1,86 @@
+body{
+    background: #41275c;
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+
+
+
+header{
+position: absolute;
+top:0;
+left:0;
+width: 100%;
+padding: 30px 100px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 1000;
+border: 10px;
+}
+
+
+.barracima {
+    background: rgba(158, 68, 218, 0.671);
+    right: 0;
+          position: absolute;
+          z-index: -3;
+          height: 11.5vh;
+          width: 100%;
+          top: 0px;
+          box-sizing: border-box;
+    }
+
+    a:hover{
+
+    color: white;
+
+    }
+
+    .botoes{
+
+    margin-left: 1300px; 
+    top:0px;
+    padding: 20px;
+
+    }
+
+    button{
+    gap: 100px;
+    font-size: 25px;
+    color: white;
+    background-color: rgba(158, 68, 218, 0.671);
+    border: none;
+    }
+
+    button:hover{
+    background-color: rgba(189, 96, 250, 0.925);
+    }
+
+    
+    #quadrado
+    { margin-left: 400px;
+        position: absolute;
+        z-index: -3;
+        height: 600px;
+        width: 1000px;
+        background: #2A0F46; 
+        top: 200px;
+        lighting-color: rgb(164, 69, 228);
+      }
+
+
+
+    #quadradois
+    {
+        margin-left: 250px;
+        position: absolute;
+        z-index: -3;
+        height: 300px;
+        width: 500px;
+        background: #50237E;
+        top: 150px;
+        lighting-color: rgb(164, 69, 228);
+       align-self: center;
+
+    }
